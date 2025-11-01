@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Meta tags esenciales -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" 
+        content="Demo de Intech Inventory System - Observe en tiempo real cómo nuestro formulario simplifica el registro de activos. Pruebe la funcionalidad completa del sistema.">
+    <meta name="keywords" content="demo, formulario de inventario, registro de activos, video tutorial">   
+    <title>Intech Inventory System - Demo</title>
+
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <!-- Header Semántico -->
+    <header role="banner">
+        <div class="container">
+            <a href="index_1.html" class="logo" aria-label="IIS - Intech Inventory System - Volver al inicio">
+                <h1>IIS</h1>
+                <p class="tagline">Intech Inventory System</p>
+            </a>
+
+            <!-- Navegación Semántica -->
+            <nav role="navigation" aria-label="Navegación Principal">
+                <ul>
+                    <li><a href="index_1.html">Inicio</a></li>
+                    <li><a href="proceso_1.html">Proceso</a></li>
+                    <li><a href="demo_1.html" aria-current="page">Demo</a></li>
+                    <li><a href="contacto_1.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main role="main">
+        <!-- Sección Introducción -->
+        <section class="section-intro" aria-labelledby="demo-title">
+            <div class="container">
+                <header class="section-header">
+                    <h1 id="demo-title">Vea el Formulario en Acción</h1>
+                    <p class="section-subtitle">
+                        Observe cómo nuestro sistema simplifica el registro de activos. A continuación, puede ver un 
+                        video demostrativo completo del funcionamiento de la plataforma.
+                    </p>
+                </header>
+            </div>
+        </section>
+
+        <!-- Sección Video -->
+        <section class="section-video" aria-labelledby="video-section-title">
+            <div class="container">
+                <h2 id="video-section-title" class="sr-only">Video Demostrativo del Sistema</h2>
+                
+                <figure class="video-container">
+                    <video 
+                        width="800" 
+                        height="600" 
+                        controls 
+                        poster="IMG/IIS.png"
+                        preload="auto"
+                        aria-describedby="video-description"
+                        title="Video de demostración del formulario de Intech Inventory System">
+                        
+                        <source src="VIDEO/demo.mp4" type="video/mp4">
+                        
+                        <!-- Fallback para navegadores sin soporte video -->
+                        <p>Tu navegador no soporta etiquetas de video HTML5.</p>
+                    </video>
+                    
+                    <figcaption id="video-description">
+                        <p>Video demostrativo del formulario de registro de activos mostrando:</p>
+                        <ul>
+                            <li>Campos de entrada y validación de datos en tiempo real</li>
+                            <li>Integración con Google Sheets para almacenamiento</li>
+                            <li>Generación automática de reportes</li>
+                            <li>Confirmación y notificaciones al usuario</li>
+                        </ul>
+                        
+                    </figcaption>
+                </figure>
+
+                <!-- Descripción adicional -->
+                <div class="video-info" role="region" aria-label="Información adicional del video">
+                    <h3>¿Qué Incluye la Demo?</h3>
+                    <ul>
+                        <li><strong>Registro de Activos:</strong> Proceso completo de ingreso de nuevos equipos</li>
+                        <li><strong>Validación de Datos:</strong> Verificación automática de información</li>
+                        <li><strong>Integración Google Sheets:</strong> Sincronización automática de datos</li>
+                        <li><strong>Generación de Reportes:</strong> Creación de informes en tiempo real</li>
+                        <li><strong>Notificaciones:</strong> Confirmación de acciones y alertas</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Call to Action -->
+        <section class="section-cta" aria-labelledby="cta-title">
+            <div class="container">
+                <header class="cta-header">
+                    <h2 id="cta-title">¿Listo para Probarlo?</h2>
+                    <p>Acceda al formulario funcional completo y experimente la facilidad de uso de Intech Inventory System.</p>
+                </header>
+
+                <div class="cta-buttons">
+                    <a 
+                        href="https://script.google.com/macros/s/AKfycbwdIYWrdRtSoNo3Fm9X4pbATH87PhR1P_XjmyRiXHRSyVXNMAoxcCgZbiUwiZ7q67P6/exec" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="btn btn-primary"
+                        aria-label="Acceder al formulario funcional en nueva ventana">
+                        
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
+                            fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" 
+                            stroke-linejoin="round" class="icon" aria-hidden="true">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                            <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                            <path d="M9 15h6" />
+                            <path d="M12.5 17.5l2.5 -2.5l-2.5 -2.5" />
+                        </svg>
+                        Acceder al Formulario Funcional
+                    </a>
+                    
+                    <a 
+                        href="contacto_1.html" 
+                        class="btn btn-secondary"
+                        aria-label="Contactar con el equipo de ventas">
+                        Solicitar Información
+                    </a>
+                </div>
+
+                <!-- Nota de seguridad -->
+                <p class="security-note" role="note">
+                    <strong>Nota:</strong> El formulario se abrirá en una nueva ventana. Se abrirá de forma segura a través de Google Apps Script.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección Características Destacadas -->
+        <section class="section-features" aria-labelledby="features-title">
+            <div class="container">
+                <h2 id="features-title">Características Destacadas del Sistema</h2>
+                
+                <ul class="features-list" role="list">
+                    <li role="listitem">
+                        <strong>Registro Instantáneo:</strong> Ingrese datos de activos en segundos
+                    </li>
+                    <li role="listitem">
+                        <strong>Validación Automática:</strong> Detección de errores en tiempo real
+                    </li>
+                    <li role="listitem">
+                        <strong>Almacenamiento en la Nube:</strong> Acceso desde cualquier dispositivo
+                    </li>
+                    <li role="listitem">
+                        <strong>Reportes Dinámicos:</strong> Generación de informes personalizados
+                    </li>
+                    <li role="listitem">
+                        <strong>Sincronización Automática:</strong> Datos siempre actualizados
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Semántico -->
+    <footer role="contentinfo">
+        <div class="container">
+            <p><small>&copy; 2025 Intech Inventory System. Todos los derechos reservados.</small></p>
+            <p><small>Desarrollado por <a href="#">Intech Consulting</a></small></p>
+        </div>
+    </footer>
+
+    <script src="Js/main.js" defer></script>
+</body>
+
+</html>
